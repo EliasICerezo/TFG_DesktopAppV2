@@ -1,0 +1,12 @@
+<div class="container">
+  <div class=notification>
+
+    <label class="image-upload-container button is-success btn-bwm center">
+      <span>Select Image</span>
+      <input #imageInput
+            type="file"
+            accept="image/*"
+            (change)="processFile(imageInput)">
+    </label>
+  </div>
+</div>
