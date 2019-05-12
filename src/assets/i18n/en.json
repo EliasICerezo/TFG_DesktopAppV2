@@ -1,26 +1,22 @@
 {
+    "advertencias": {
+        "acceptButton": "Agree. Analyze Image",
+        "declineButton": "Decline. Exit",
+        "text": "Esta aplicación ha sido diseñada como parte del trabajo de fin de grado del alumno del grado en Ingeniería del Software en la Universidad de Málaga Elias Ibn Ziaten Cerezo. El fin de la misma es ser capaz de discernir entre piel sana y 7 lesiones cutáneas diferentes. Se excluye del fin de esta aplicación el invitar a los usuarios a automedicarse, o sustituir un experto dermatólogo por el resultado obtenido en la aplicación. En la implementación se ha utilizado un sistema inteligente compuesto de varios componentes inteligentes, susceptibles a fallo, y muy complejos.",
+        "title": "Disclaimer"
+    },
+    "analyze": {
+        "analyzed": "Analyzed Image",
+        "original": "Original image",
+        "required": "This field is required",
+        "resultado": "Result: ",
+        "resulttext": "The intelligent system has classified the image you sent as: ",
+        "seleccion": "Choose file",
+        "submit": "Sumbit"
+    },
     "start": {
         "advertencias": "Disclaimer",
-        "text": "Use this app on your won risk. Do not self-medicate based on the results obtained here.",
-        "button" : "Access"
-    },
-
-    "advertencias" : {
-        "title": "Disclaimer",
-        "text": "Esta aplicación ha sido diseñada como parte del trabajo de fin de grado del alumno del grado en Ingeniería del Software en la Universidad de Málaga Elias Ibn Ziaten Cerezo. El fin de la misma es ser capaz de discernir entre piel sana y 7 lesiones cutáneas diferentes. Se excluye del fin de esta aplicación el invitar a los usuarios a automedicarse, o sustituir un experto dermatólogo por el resultado obtenido en la aplicación. En la implementación se ha utilizado un sistema inteligente compuesto de varios componentes inteligentes, susceptibles a fallo, y muy complejos.",
-        "acceptButton": "Agree. Analyze Image",
-        "declineButton": "Decline. Exit"
-    },
-
-    "analyze":{
-        "seleccion": "Choose file",
-        "submit": "Sumbit",
-        "required": "This field is required",
-        "original": "Original image",
-        "analyzed": "Analyzed Image", 
-        "resultado": "Result: ",
-        "resulttext": "The intelligent system has classified the image you sent as: "
+        "entrar": "Access",
+        "text": "Use this app on your won risk. Do not self-medicate based on the results obtained here."
     }
-
-
 }

@@ -1,26 +1,22 @@
 {
+    "advertencias": {
+        "acceptButton": "Acepto las advertencias. Analizar Imagen",
+        "declineButton": "Rechazo. Salir",
+        "text": "Esta aplicación ha sido diseñada como parte del trabajo de fin de grado del alumno del grado en Ingeniería del Software en la Universidad de Málaga Elias Ibn Ziaten Cerezo. El fin de la misma es ser capaz de discernir entre piel sana y 7 lesiones cutáneas diferentes. Se excluye del fin de esta aplicación el invitar a los usuarios a automedicarse, o sustituir un experto dermatólogo por el resultado obtenido en la aplicación. En la implementación se ha utilizado un sistema inteligente compuesto de varios componentes inteligentes, susceptibles a fallo, y muy complejos.",
+        "title": "Advertencias"
+    },
+    "analyze": {
+        "analyzed": "Imagen Analizada",
+        "original": "Imagen Original",
+        "required": "Este campo es obligatorio",
+        "resultado": "Resultado: ",
+        "resulttext": "El sistema inteligente ha identificado la imagen enviada como: ",
+        "seleccion": "Seleccionar Fichero",
+        "submit": "Enviar"
+    },
     "start": {
         "advertencias": "Advertencias",
-        "text": "Use esta aplicación bajo su propia responsabilidad. No se automedique en base a los resultados obtenidos.",
-        "button" : "Acceder"
-    },
-
-    "advertencias" : {
-        "title": "Advertencias",
-        "text": "Esta aplicación ha sido diseñada como parte del trabajo de fin de grado del alumno del grado en Ingeniería del Software en la Universidad de Málaga Elias Ibn Ziaten Cerezo. El fin de la misma es ser capaz de discernir entre piel sana y 7 lesiones cutáneas diferentes. Se excluye del fin de esta aplicación el invitar a los usuarios a automedicarse, o sustituir un experto dermatólogo por el resultado obtenido en la aplicación. En la implementación se ha utilizado un sistema inteligente compuesto de varios componentes inteligentes, susceptibles a fallo, y muy complejos.",
-        "acceptButton": "Acepto las advertencias. Analizar Imagen",
-        "declineButton": "Rechazo. Salir"
-    },
-
-    "analyze":{
-        "seleccion": "Seleccionar Fichero",
-        "submit": "Enviar",
-        "required": "Este campo es obligatorio",
-        "original": "Imagen Original",
-        "analyzed": "Imagen Analizada", 
-        "resultado": "Resultado: ",
-        "resulttext": "El sistema inteligente ha identificado la imagen enviada como: "
+        "entrar": "Entrar",
+        "text": "Use esta aplicación bajo su propia responsabilidad. No se automedique en base a los resultados obtenidos."
     }
-
-
 }
