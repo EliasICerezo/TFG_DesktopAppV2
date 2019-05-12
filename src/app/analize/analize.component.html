@@ -1,12 +1,79 @@
-<div class="container">
-  <div class=notification>
 
-    <label class="image-upload-container button is-success btn-bwm center">
-      <span>Select Image</span>
-      <input #imageInput
-            type="file"
-            accept="image/*"
-            (change)="processFile(imageInput)">
-    </label>
+<div class="container">
+  <div class="notification" >
+    <div class="ng-container" style="margin-top: 20px; max-width: 100%; ">
+
+      <form [formGroup]="signup" (ngSubmit)="submit()">
+        <div class="form-group">
+          <app-file-upload formControlName="image" [progress]="progress"></app-file-upload>
+          <div class="invalid-feedback" style="display: block">
+            <ng-container *ngIf="hasError('image', 'required')">This field is required</ng-container>
+          </div>
+        </div>
+        <br/>
+        <button type="submit" class="button is-link is-fullwidth">Submit</button>
+    
+      </form>
+    
+    </div>
   </div>
 </div>
+
+<br/> <br/>
+
+<div class="container" [hidden]="!visible">
+  <div class="notification">
+    <div class="columns">
+      <div class="column">
+
+          <div class="card">
+              <div class="card-image">
+                  <figure class="image ">
+                      <img src="{{path}}" alt="Imagen original">
+                  </figure>
+              </div>
+              <div class="card-content">
+                  <div class="subtitle">
+                      Imagen Original
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <div class="column">
+
+          <div class="card">
+              <div class="card-image">
+                  <figure class="image ">
+                      <img class="imgan" src="{{path}}"  alt="Imagen analizada">
+                  </figure>
+              </div>
+              <div class="card-content">
+                  <div class="subtitle">
+                      Imagen analizada
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <div class="column">
+
+          <div class="card">
+              <header class="card-header">
+                  <p class="card-header-title">
+                      Resultado:
+                  </p>
+              </header>
+              <div class="card-content">
+                  <div class="content">
+                      El sistema inteligente ha identificado la imagen enviada como: <b> {{ result }} </b>
+                  </div>
+              </div>
+          </div>
+
+
+      </div>
+  </div>
+  </div>
+</div>
+

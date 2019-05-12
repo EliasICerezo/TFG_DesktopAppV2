@@ -1,3 +1,59 @@
-<p>
-  result works!
-</p>
+<div class="container">
+  <div class="notification">
+      <div class="columns">
+          <div class="column">
+
+              <div class="card">
+                  <div class="card-image">
+                      <figure class="image ">
+                          <!-- <img src="../static/images_received/{{ filename }}" alt="Imagen original"> -->
+                      </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="subtitle">
+                          Imagen Original
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="column">
+
+              <div class="card">
+                  <div class="card-image">
+                      <figure class="image ">
+                          <!-- <img src="../static/images_received/{{ newfilename }}" alt="Imagen analizada"> -->
+                      </figure>
+                  </div>
+                  <div class="card-content">
+                      <div class="subtitle">
+                          Imagen analizada
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="column">
+
+              <div class="card">
+                  <header class="card-header">
+                      <p class="card-header-title">
+                          Resultado:
+                      </p>
+                  </header>
+                  <div class="card-content">
+                      <div class="content">
+                          El sistema inteligente ha identificado la imagen enviada como: <b> {{ result }} </b>
+                      </div>
+                  </div>
+                  <footer class="card-footer">
+                      <!-- <a href="{{ url_for("analize_render") }}" class="button is-link is-fullwidth">Volver a analizar</a>
+                      <a href="{{ url_for("index") }}" class="button is-primary is-fullwidth">Volver al Index</a> -->
+                  </footer>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+</div>

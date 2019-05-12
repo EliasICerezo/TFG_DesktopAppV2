@@ -8,6 +8,11 @@ import { StartComponent } from './start/start.component';
 import { AdvertenciasComponent } from './advertencias/advertencias.component';
 import { AnalizeComponent } from './analize/analize.component';
 import { ResultComponent } from './result/result.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { FileUploadComponent } from './file-upload/file-upload.component';
+import { ProgressComponent } from './progress/progress.component';
+import {HttpModule} from '@angular/http';
 
 
 @NgModule({
@@ -17,11 +22,17 @@ import { ResultComponent } from './result/result.component';
     StartComponent,
     AdvertenciasComponent,
     AnalizeComponent,
-    ResultComponent
+    ResultComponent,
+    FileUploadComponent,
+    ProgressComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    AppRoutingModule,
+// tslint:disable-next-line: deprecation
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
