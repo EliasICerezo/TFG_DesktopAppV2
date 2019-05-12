@@ -9,12 +9,12 @@
           </div>
           <div class="card-content">
               <div class="subtitle">
-                  <b>Advertencias</b>
+                  <b>{{'start.advertencias' | translate}}</b>
               </div>
               <div class="content has-text-danger">
-                  <p>Use esta aplicación bajo su propia responsabilidad. <br/> No se automedique en base a los resultados obtenidos.</p>
+                  <p [translate]="'start.text'"></p>
               </div>
-              <a class="button is-large is-info is-fullwidth" routerLink="/advertencias">Acceder</a>
+              <a class="button is-large is-info is-fullwidth" routerLink="/advertencias">{{ 'start.button' | translate }}</a>
           </div>
       </div>
 

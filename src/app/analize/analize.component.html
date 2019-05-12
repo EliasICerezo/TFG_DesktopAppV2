@@ -7,11 +7,11 @@
         <div class="form-group">
           <app-file-upload formControlName="image" [progress]="progress"></app-file-upload>
           <div class="invalid-feedback" style="display: block">
-            <ng-container *ngIf="hasError('image', 'required')">This field is required</ng-container>
+            <ng-container *ngIf="hasError('image', 'required')">{{'analyze.required'|translate}}</ng-container>
           </div>
         </div>
         <br/>
-        <button type="submit" class="button is-link is-fullwidth">Submit</button>
+        <button type="submit" class="button is-link is-fullwidth">{{'analyze.submit'|translate}}</button>
     
       </form>
     
@@ -34,7 +34,7 @@
               </div>
               <div class="card-content">
                   <div class="subtitle">
-                      Imagen Original
+                    {{'analyze.original'|translate}}
                   </div>
               </div>
           </div>
@@ -50,7 +50,7 @@
               </div>
               <div class="card-content">
                   <div class="subtitle">
-                      Imagen analizada
+                    {{'analyze.analyzed'|translate}}
                   </div>
               </div>
           </div>
@@ -61,12 +61,12 @@
           <div class="card">
               <header class="card-header">
                   <p class="card-header-title">
-                      Resultado:
+                    {{'analyze.resultado'|translate}}
                   </p>
               </header>
               <div class="card-content">
                   <div class="content">
-                      El sistema inteligente ha identificado la imagen enviada como: <b> {{ result }} </b>
+                    {{'analyze.resulttext'|translate}} <b> {{ result }} </b>
                   </div>
               </div>
           </div>
