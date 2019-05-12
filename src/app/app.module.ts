@@ -12,7 +12,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { FileUploadComponent } from './file-upload/file-upload.component';
 import { ProgressComponent } from './progress/progress.component';
-import {HttpModule} from '@angular/http';
 
 
 @NgModule({
@@ -30,9 +29,7 @@ import {HttpModule} from '@angular/http';
     BrowserModule,
     ReactiveFormsModule,
     HttpClientModule,
-    AppRoutingModule,
-// tslint:disable-next-line: deprecation
-    HttpModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
