@@ -2,7 +2,7 @@
     "advertencias": {
         "acceptButton": "Acepto las advertencias. Analizar Imagen",
         "declineButton": "Rechazo. Salir",
-        "text": "Esta aplicación ha sido diseñada como parte del trabajo de fin de grado del alumno del grado en Ingeniería del Software en la Universidad de Málaga Elias Ibn Ziaten Cerezo. El fin de la misma es ser capaz de discernir entre piel sana y 7 lesiones cutáneas diferentes. Se excluye del fin de esta aplicación el invitar a los usuarios a automedicarse, o sustituir un experto dermatólogo por el resultado obtenido en la aplicación. En la implementación se ha utilizado un sistema inteligente compuesto de varios componentes inteligentes, susceptibles a fallo, y muy complejos.",
+        "text": "No se automedique en base a los resultados obtenidos. Esta aplicación no realiza un diagnóstico, es tan solo un asistente. Acuda a un profesional para obtener información veraz. En caso de que obtenga un resultado no favorable no se alarme, acuda a un profesional para verificar lo obtenido porque esta aplicación tiene un margen de error. Las imágenes que se envíen o se tomen deben estar encuadradas y con una buena iluminación y la lesión a analizar debe estar más o menos centrada pues si este no es el caso puede obtenerse un veredicto erróneo o fallido. Esta aplicación no guarda ninguna de las imágenes enviadas ni tampoco se le requiere ningún tipo de dato personal identificatorio, por tanto su uso es completamente anónimo.",
         "title": "Advertencias"
     },
     "analyze": {

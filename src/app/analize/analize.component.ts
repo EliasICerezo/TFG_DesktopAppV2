@@ -60,7 +60,7 @@ export class AnalizeComponent {
     }
 
     console.log(this.signup.value["image"])
-    this.http.post('http://localhost:5000/test', toFormData(this.signup.value), {
+    this.http.post('http://localhost:80/test', toFormData(this.signup.value), {
       reportProgress: true,
       observe: 'events'
     }).pipe(
